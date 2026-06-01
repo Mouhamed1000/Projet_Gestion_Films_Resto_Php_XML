@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE restaurants SYSTEM "../DTD/sprog_restaurant.dtd">
+<restaurants>
+    <fiche_restaurant>
+        <coordonnees>
+            <nom>La Brasserie Moderne</nom>
+            <adresse>456 Avenue des Champs</adresse>
+            <nom_restaurateur>Marie Martin</nom_restaurateur>
+        </coordonnees>
+        <description>
+            <paragraphe>Une ambiance moderne et des plats savoureux vous attendent.</paragraphe>
+            <paragraphe>
+                Découvrez notre large choix de plats à la carte, préparés avec des produits locaux de qualité.
+            </paragraphe>
+        </description>
+        <carte>
+            <plat>
+                <partie_repas>Entrée</partie_repas>
+                <prix>12 EUR</prix>
+                <description_plat>Salade César</description_plat>
+            </plat>
+            <plat>
+                <partie_repas>Plat principal</partie_repas>
+                <prix>24 EUR</prix>
+                <description_plat>Steak frites</description_plat>
+            </plat>
+            <plat>
+                <partie_repas>Dessert</partie_repas>
+                <prix>10 EUR</prix>
+                <description_plat>Fondant au chocolat</description_plat>
+            </plat>
+        </carte>
+        <service_a_la_carte description="Nous offrons une sélection variée de plats à la carte pour satisfaire tous les goûts."/>
+    </fiche_restaurant>
+<fiche_restaurant><coordonnees><nom>Kfc</nom><adresse>Fann</adresse><nom_restaurateur>Chef Aida</nom_restaurateur></coordonnees><description><paragraphe>Restaurant de la place, tres succulent</paragraphe><liste_images><image url="neant"/></liste_images></description><carte><plat><partie_repas>Plat principal</partie_repas><prix>3000FcFa</prix><description_plat>Plat Senegalais tres souple</description_plat></plat></carte><service_a_la_carte description="neant"/></fiche_restaurant><fiche_restaurant><coordonnees><nom>Djoloff Chicken</nom><adresse>Rufisque</adresse><nom_restaurateur>Mdme Lo</nom_restaurateur></coordonnees><description><paragraphe>sale, sucre, patisserie</paragraphe><liste_images><image url="neant"/></liste_images></description><carte><plat><partie_repas>Plat principal</partie_repas><prix>2500FCFA</prix><description_plat>plat senegalais, naturel</description_plat></plat></carte><service_a_la_carte description="bon pour la sante"/></fiche_restaurant></restaurants>

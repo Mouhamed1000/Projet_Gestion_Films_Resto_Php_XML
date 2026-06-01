@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+      background:  #e7ebf0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 96vh;
+      /* background:  #343634 ; */
+     }
+
+form {
+      height: 600px;
+      width: 900px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: start;
+      border-radius: 7px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+      background-color: #fff;
+      font-family: 'Roboto', sans-serif;
+     }
+
+form input, form select {
+                         width: 210px;
+                         border: none;
+                         background-color: #fff;
+                         /* background-color: #e7ebf0; */
+                         outline: none;
+                         height: 22px;
+                         font-family: 'Roboto', sans-serif;
+                        }
+
+                      
+h2, h3 {
+        width: 100%;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        /* margin-left: 30px; */
+       }
+
+.div1 {
+       display: flex;
+       /* align-items: center; */
+       padding: 4px;
+       width: 310px;
+       border: 3px solid #e7e5e5;
+       /* background-color: #e7ebf0; */
+       border-radius: 3px;
+       margin-left: 30px;
+      }
+
+.div2 {
+        display: flex;
+        justify-content: space-between;
+        width: 96%;
+        /* margin-left: 30px; */
+      }
+
+.div1 i {
+          margin-right: 10px;
+        }
+
+.div3 {
+          width: 820px;
+         }
+
+.valider {
+          background-color: black;
+          height: 30px;
+          color: #fff;
+          font-size: 16px;
+          width: 300px;
+          margin-bottom: 10px;
+          transition: all 1s;
+          /* padding: 15px; */
+          border-radius: 40px;
+        }
+
+.bouton {
+        text-align: center;
+        width: 100%;
+}
+
+.valider:hover {
+                /* background-color: #e7ebf0; */
+                background:  #3b3b3b;
+               }
+
+
+ .lien1 {
+         text-decoration: none;
+         color: black;
+         font-size: 21px;
+         position: absolute;
+         transition: all 1s;
+         top: 0;
+         left: 0;
+        }
+      
+.lien1:hover {
+              color:  #3b3b3b;
+             }

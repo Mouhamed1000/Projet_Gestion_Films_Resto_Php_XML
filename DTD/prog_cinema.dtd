@@ -1,0 +1,22 @@
+<!ELEMENT films (film+)>
+<!ELEMENT film (titre, duree, genre, realisateur, acteurs, annee, langue, synopsis, horaires)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT duree (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT realisateur (#PCDATA)>
+<!ELEMENT acteurs (acteur+)>
+<!ELEMENT acteur (#PCDATA)>
+<!ELEMENT annee (#PCDATA)>
+<!ELEMENT langue (#PCDATA)>
+<!ELEMENT synopsis (#PCDATA)>
+<!ELEMENT horaires (jour+)>
+<!ELEMENT jour (horaire+)>
+<!ELEMENT horaire (#PCDATA)>
+
+<!ATTLIST film
+    presse CDATA #IMPLIED
+    spectateurs CDATA #IMPLIED
+>
+<!ATTLIST jour
+    name CDATA #IMPLIED
+>

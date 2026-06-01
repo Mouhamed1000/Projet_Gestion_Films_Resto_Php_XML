@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    /* justify-content: space-between; */
+    background:#f3f3f5;
+   }
+
+
+nav {
+   /* position: fixed; */
+   height: 97vh;
+   width: 260px;
+   /* border: 1px solid; */
+   border-radius: 20px;
+   background: #01532a;
+   box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.1);
+   font-family: 'Proza Libre', sans-serif;
+  }
+
+nav div {
+       display: flex;
+       font-family: 'Lato', sans-serif;
+       font-size: 12px;
+       color: #fff;
+       margin-bottom: 5vh;
+      }
+
+nav a {
+     text-decoration: none;
+     color: #fff;
+    }
+
+nav li {
+      color: #fff;
+      font-size: 18px;
+     }
+
+.fa-stethoscope, .fa-head-side-virus, 
+.fa-calendar-days, .fa-house {
+                                font-size: 24px;
+                                margin-right: 10px;
+                               }
+
+.element {
+     display: inline-block;
+     padding: 10px 15px;
+     transition: all 0.2s ease;
+}
+
+.element:hover {
+             padding: 15px 20px;
+            background: #268bc9;
+           }
+
+
+nav > ul > li {
+             margin-bottom: 30px;
+            }
+
+.sous-menu {
+          /* visibility: hidden; */
+          display: none;
+          /* height: 0; */
+         }
+
+.sous-menu:target {
+  /* height: 100%; */
+  /* visibility: visible; */
+  display: inline-block;
+  /* opacity: 1; */
+}
+
+nav ul {
+      list-style-type: none;
+     }
+
+.sect {
+     /* border: 1px solid; */
+     width: 78%;
+     height: 96vh;
+    }
+     
+
+.box1, .box2, .box3 {
+                   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                   width: 30%;
+                   background-color: #fff;
+                   height: 150px;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   flex-wrap: wrap;
+                  }
+
+
+.sect1 {
+      /* margin-top: 50px; */
+      /* border: 1px solid; */
+      height: 150px;
+      display: flex;
+      justify-content: space-around;
+     }
+
+.sect1 i {
+        font-size: 30px;
+        color: #268bc9;
+        width: 50px;
+        height: 50px;
+        /* margin-right: 10px; */
+        border-radius: 50%;
+        border: 1px solid;
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+
+.sect1 h4 {
+         opacity: 0.5;
+         font-family: Arial, Helvetica, sans-serif;
+         margin-left: 10px;
+        }
+
+.sect1 p {
+        margin-left: 10px;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+       }

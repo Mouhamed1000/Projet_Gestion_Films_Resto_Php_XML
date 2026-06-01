@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!DOCTYPE films SYSTEM "../DTD/prog_cinema.dtd">
+<films>
+    <film presse="3/5" spectateurs="4/5">
+        <titre>Les Brigades du Tigre</titre>
+        <duree>2h 5min</duree>
+        <genre>Policier</genre>
+        <realisateur>J&#xE9;r&#xF4;me Cornuau</realisateur>
+        <acteurs>
+            <acteur>C. Cornillac</acteur>
+            <acteur>D. Kruger</acteur>
+            <acteur>E. Baer</acteur>
+        </acteurs>
+        <annee>2005</annee>
+        <langue>VF (en Fran&#xE7;ais)</langue>
+        <synopsis>
+            Les aventures du commissaire Valentin et des inspecteurs Terrasson et Pujol,
+            membres des Brigades mobiles, corps sp&#xE9;cial de la police fran&#xE7;aise cr&#xE9;&#xE9; avant
+            la Premi&#xE8;re Guerre mondiale.
+        </synopsis>
+        <horaires>
+            <jour name="mercredi">
+                <horaire>14:00</horaire>
+                <horaire>16:40</horaire>
+                <horaire>19:40</horaire>
+                <horaire>22:10</horaire>
+            </jour>
+            <jour name="vendredi samedi">
+                <horaire>14:00</horaire>
+                <horaire>19:40</horaire>
+                <horaire>22:10</horaire>
+            </jour>
+            <jour name="Dimanche">
+                <horaire>10:20</horaire>
+                <horaire>14:00</horaire>
+                <horaire>16:40</horaire>
+                <horaire>20:20</horaire>
+            </jour>
+        </horaires>
+    </film>
+
+    <film presse="1/5" spectateurs="5/5">
+        <titre>Merlin</titre>
+        <duree>2h 5min</duree>
+        <genre>Policier</genre>
+        <realisateur>J&#xE9;r&#xF4;me Cornuau</realisateur>
+        <acteurs>
+            <acteur>C. Cornillac</acteur>
+            <acteur>D. Kruger</acteur>
+            <acteur>E. Baer</acteur>
+        </acteurs>
+        <annee>2005</annee>
+        <langue>VF (en Fran&#xE7;ais)</langue>
+        <synopsis>
+            Les aventures du commissaire Valentin et des inspecteurs Terrasson et Pujol,
+            membres des Brigades mobiles, corps sp&#xE9;cial de la police fran&#xE7;aise cr&#xE9;&#xE9; avant
+            la Premi&#xE8;re Guerre mondiale.
+        </synopsis>
+        <horaires>
+            <jour name="mercredi">
+                <horaire>14:00</horaire>
+                <horaire>16:40</horaire>
+                <horaire>19:40</horaire>
+                <horaire>22:10</horaire>
+            </jour>
+            <jour name="vendredi samedi">
+                <horaire>14:00</horaire>
+                <horaire>19:40</horaire>
+                <horaire>22:10</horaire>
+            </jour>
+            <jour name="Dimanche">
+                <horaire>10:20</horaire>
+                <horaire>14:00</horaire>
+                <horaire>16:40</horaire>
+                <horaire>20:20</horaire>
+            </jour>
+        </horaires>
+    </film>
+
+<film presse="louisi" spectateurs="kfc"><titre>movie3</titre><duree>2h00</duree><genre>comique</genre><realisateur>Simpson</realisateur><acteurs><acteur>messid</acteur><acteur>neymarl</acteur></acteurs><annee>2012</annee><langue>allemand</langue><synopsis>ceci est u</synopsis><horaires><jour name="merccredi"><horaire>3i:03</horaire></jour></horaires></film><film presse="dd" spectateurs="dd"><titre>simspon</titre><duree>3h00</duree><genre>dramatique</genre><realisateur>mjjf </realisateur><acteurs><acteur>jjd</acteur><acteur>kkfkf</acteur></acteurs><annee>2014</annee><langue>deutsch</langue><synopsis>dd</synopsis><horaires><jour name="samedi"><horaire>93:93</horaire></jour></horaires></film><film presse="Mr Ndiaye" spectateurs="Mdme Gaye"><titre>Film99</titre><duree>3h00mn</duree><genre>Action</genre><realisateur>Mr Simpson</realisateur><acteurs><acteur>hero1</acteur><acteur>hero2</acteur><acteur>hero3</acteur></acteurs><annee>2024</annee><langue>Anglais</langue><synopsis>un film passionnant</synopsis><horaires><jour name="merccredi, samedi"><horaire>12:00</horaire><horaire> 14:00</horaire></jour></horaires></film></films>
