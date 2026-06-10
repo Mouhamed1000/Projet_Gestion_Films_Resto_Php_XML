@@ -131,7 +131,7 @@ nav()
                     data: {
                         labels: <?= json_encode($mois) ?>,
                         datasets: [{
-                            label: 'Simulation du nombre de Visiteurs au cours de l\'an',
+                            label: 'Nombre de Visiteurs',
                             data: <?= json_encode($visiteurs) ?>,
                             borderColor: '#268bc9',
                             backgroundColor: 'rgba(0, 0, 255, 0.1)',
@@ -145,6 +145,16 @@ nav()
                             y: {
                                 beginAtZero: false
                             }
+                        },
+                        plugins: {
+                           title: {
+                           	display: true,
+                           	text: 'Simulation du nombre de Visiteurs au cours de l\'an',
+                           	color: 'grey',
+                           	font: {
+                           		size: 22
+                           	}
+                           }
                         }
                     }
                 });
