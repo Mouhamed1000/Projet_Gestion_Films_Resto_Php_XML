@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap" rel="stylesheet">  
     <link href="../Assets/CSS/dashAdmin.css" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/b31216a86e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <nav>
             <div>
                 <img src= "../Assets/Images/logo.png" width = "50px"/>
@@ -53,3 +54,106 @@
 
 nav()
 ?>
+
+
+<section class="sectAdmin">
+
+    <section  class="sect1">
+
+        <div class="box1">
+
+            <div>
+
+                <i class="fa-solid fa-clapperboard"></i>
+                <h4> Nombre Films </h4>
+                <?php
+                    $xml = simplexml_load_file("../XML/prog_cinema.xml");
+                    $nombreFilms = count($xml->film);
+                ?>
+
+            </div>
+            <span> <?=$nombreFilms?> </span>
+        </div>
+
+        <div class="box2">
+
+            <div>
+
+                <i class="fa-solid fa-utensils"></i>            
+                <h4> Nombre restaurants </h4>
+                <?php
+                    $xml = simplexml_load_file("../XML/prog_restaurant.xml");
+                    $nombreRestos = count($xml->fiche_restaurant);
+                ?>
+
+            </div>
+            <span> <?=$nombreRestos?> </span>
+        </div>
+        
+    </section>
+
+    <section class="sect2">
+
+        <div class="sect2Content">
+        
+            <?php
+
+            $mois = [
+                "Jan", "Fév", "Mar", "Avr", "Mai", "Juin",
+                "Juil", "Aoû", "Sep", "Oct", "Nov", "Déc"
+            ];
+
+            $visiteurs = [];
+
+            $base = 5000;
+
+            for ($i = 0; $i < 12; $i++) {
+
+                // légère croissance + variation aléatoire
+                $base += rand(-300, 800);
+
+                if ($base < 1000) {
+                    $base = 1000;
+                }
+
+                $visiteurs[] = $base;
+            }
+
+            ?>
+
+            <canvas id="courbe"></canvas>
+
+            <script>
+                const ctx = document.getElementById('courbe');
+
+                new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: <?= json_encode($mois) ?>,
+                        datasets: [{
+                            label: 'Simulation du nombre de Visiteurs au cours de l\'an',
+                            data: <?= json_encode($visiteurs) ?>,
+                            borderColor: '#268bc9',
+                            backgroundColor: 'rgba(0, 0, 255, 0.1)',
+                            fill: true,
+                            tension: 0.4
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        scales: {
+                            y: {
+                                beginAtZero: false
+                            }
+                        }
+                    }
+                });
+            </script>
+
+        </div>
+
+
+    </section>
+
+</section>
+        
